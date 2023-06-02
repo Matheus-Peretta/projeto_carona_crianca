@@ -1,0 +1,443 @@
+/*@import url('https://fonts.googleapis.com/css2?family= Rubik+Puddles & display=swap');*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+main{
+    width: 40vw;
+    border-radius: 20px;
+    margin: 50px auto 0px auto;
+    box-shadow: 1px 1px 20px black;
+    background-color: rgba(0, 0, 0, 0.459);
+    background-image: url('../imagens/cadmotorista/kaspper2.png');
+    background-position: center;
+    background-size: cover;
+}
+aside{
+    font-size: small;
+    background-color: #194032;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}
+aside:hover{
+    background-color: #0f271e;
+    cursor: pointer;
+}
+.botoesexternos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+.dentrobtexternos{
+    padding: 0px;
+}
+.dentrobtexternos2{
+    padding: 0px;
+}
+.button{
+    text-decoration: none; 
+    color: white; 
+    width: 80%; 
+    margin: auto; 
+    display: block;
+    text-align: center;
+    background-color: #194032;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+}
+.button:hover{
+    background-color: #0f271e;
+}
+#iflutuante{
+    position: absolute; 
+    top: 18%; 
+    left: 39%; 
+    width: 350px; 
+    height: 340px; 
+    background-color: rgb(211, 211, 211); 
+    border-radius: 20px; 
+    display: none; 
+    border: 2px solid black;
+}
+#botaofechar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    text-align: justify;
+    text-indent: 5px;
+}
+.botaodoflutuante{
+    background-color: rgba(128, 128, 128, 0.518);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 120px;
+    width: 100px;
+    top: 85%;
+    text-align: center;
+    /*transition-property: ;
+    transform: translateX(1%);
+    transition-duration: 500ms; 
+    transition-timing-function: 500ms;
+    transition-delay: ;*/
+}
+.botaodoflutuante:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+body{
+    background-image: linear-gradient(to right, #4BBF96, #41A682);
+}
+h1{
+    background-color: #41A682;
+    text-align: center;
+    font-variant: small-caps;
+    box-shadow: 11px 6px 32px #194032;
+    border-radius: 25px;
+    width: 80vw;
+    margin: auto;
+    text-shadow: 1px 1px 25px black;
+}
+.letradiferente{
+    text-align: center;
+    text-shadow: 1px 1px 25px black;
+    font-variant: small-caps;
+    margin-top: 35px;
+    color: white;
+}
+/*TELA COM TAMANHO PARA LAPTOP*/
+@media screen and (min-width: 990px) and (max-width: 1173px){
+    main{
+        width: 50vw;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px;
+        margin: 50px auto 0px auto;
+        box-shadow: 1px 1px 20px black;
+        background-color: rgba(0, 0, 0, 0.459);
+        background-image: url('../imagens/cadmotorista/kaspper2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #iflutuante{
+        position: absolute; 
+        top: 18%; 
+        left: 34%; 
+        width: 350px; 
+        height: 340px; 
+        background-color: rgb(211, 211, 211); 
+        border-radius: 20px; 
+        display: none; 
+        border: 2px solid black;
+    }
+    aside{
+        font-size: small;
+        background-color: #194032;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+    }
+    aside a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/*TELA COM TAMANHO PARA TABLETS*/
+@media screen and (min-width: 600px) and (max-width: 990px){
+    main{
+        width: 70vw;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px;
+        margin: 50px auto 0px auto;
+        box-shadow: 1px 1px 20px black;
+        background-color: rgba(0, 0, 0, 0.459);
+        background-image: url('../imagens/cadmotorista/kaspper2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #iflutuante{
+        position: absolute; 
+        top: 12%; 
+        left: 27%; 
+        width: 350px; 
+        height: 340px; 
+        background-color: rgb(211, 211, 211); 
+        border-radius: 20px; 
+        display: none; 
+        border: 2px solid black;
+    }
+    aside{
+        font-size: small;
+        background-color: #194032;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+    }
+    aside a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/*TELA COM TAMANHO PARA MOBILE*/
+@media screen and (min-width: 535px) and (max-width: 600px){
+    main{
+        width: 80vw;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px;
+        margin: 50px auto 0px auto;
+        box-shadow: 1px 1px 20px black;
+        background-color: rgba(0, 0, 0, 0.459);
+        background-image: url('../imagens/cadmotorista/kaspper2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #iflutuante{
+        position: absolute; 
+        top: 12%; 
+        left: 20%; 
+        width: 350px; 
+        height: 340px; 
+        background-color: rgb(211, 211, 211); 
+        border-radius: 20px; 
+        display: none; 
+        border: 2px solid black;
+    }
+    aside{
+        font-size: small;
+        background-color: #194032;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+    }
+    aside a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/*TELA COM TAMANHO 535PX PARA BAIXO*/
+@media screen and (min-width: 306px) and (max-width: 535px){
+    main{
+        width: 80vw;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px;
+        margin: 50px auto 0px auto;
+        box-shadow: 1px 1px 20px black;
+        background-color: rgba(0, 0, 0, 0.459);
+        background-image: url('../imagens/cadmotorista/kaspper2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    aside{
+        font-size: small;
+        background-color: #194032;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+    }
+    aside a{
+        text-decoration: none;
+        color: white;
+    }
+    aside:hover{
+        background-color: gray;
+    }
+    .botoesexternos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .dentrobtexternos{
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .botoesexternos2{
+        padding: 0px;
+        display: block;
+        margin: auto;
+    }
+    .button{
+        text-decoration: none; 
+        color: white; 
+        width: 80%; 
+        margin: -20px auto 0px auto; 
+        display: block;
+        text-align: center;
+        background-color: #194032;
+        border-radius: 20px;
+        padding: 10px 3px 10px 3px;
+    }
+    #iflutuante{
+        position: absolute; 
+        top: 12%;
+        left: 12%;
+        width: 266px;
+        height: 430px; 
+        background-color: rgb(211, 211, 211); 
+        border-radius: 20px; 
+        display: none; 
+        border: 2px solid black;
+    }
+    #botaofechar{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: justify;
+        text-indent: 5px;
+    }
+    .botaodoflutuante{
+        background-color: rgba(128, 128, 128, 0.518);
+        display: inline-block;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        left: 82px;
+        width: 100px;
+        top: 85%;
+        text-align: center;
+    }
+    .botaodoflutuante:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+    h2.letradiferente{
+        color: white;
+        font-family: 'Rubik Puddles', cursive;
+        font-size: max(14.8px, 4vw);
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 306px){
+    main{
+        width: 80vw;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px;
+        margin: 50px auto 0px auto;
+        box-shadow: 1px 1px 20px black;
+        background-color: rgba(0, 0, 0, 0.459);
+        background-image: url('../imagens/cadmotorista/kaspper2.png');
+        background-position: center;
+        background-size: cover;
+    }
+    aside{
+        font-size: small;
+        background-color: #194032;
+        display: inline-block;
+        padding: 3px;
+        margin-top: 5px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+    }
+    aside a{
+        text-decoration: none;
+        color: white;
+    }
+    aside:hover{
+        background-color: gray;
+    }
+    .botoesexternos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .dentrobtexternos{
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .botoesexternos2{
+        padding: 0px;
+        display: block;
+        margin: auto;
+    }
+    .button{
+        text-decoration: none; 
+        color: white; 
+        width: 80%; 
+        margin: -20px auto 0px auto; 
+        display: block;
+        text-align: center;
+        background-color: #194032;
+        border-radius: 20px;
+        padding: 10px 3px 10px 3px;
+    }
+    #iflutuante{
+        position: absolute; 
+        top: 12%;
+        left: 7%;
+        width: 191px;
+        height: 518px; 
+        background-color: rgb(211, 211, 211); 
+        border-radius: 20px; 
+        display: none; 
+        border: 2px solid black;
+    }
+    #botaofechar{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: justify;
+        text-indent: 5px;
+    }
+    .botaodoflutuante{
+        background-color: rgba(128, 128, 128, 0.518);
+        display: inline-block;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        left: 48px;
+        width: 100px;
+        top: 85%;
+        text-align: center;
+    }
+    .botaodoflutuante:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+}

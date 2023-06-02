@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forours</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="imagens/home/favicon2-icon.png" type="image/x-icon">
+  </head>
+  <body onload="digitarDados()">
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" style="background-color: #5EF2BE; border-radius: 10px 10px 10px 10px; margin-right: 5px; color: black; text-align: center;
+            margin-top: 10px;">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item" style="background-color: #5EF2BE; border-radius: 10px 10px 10px 10px; margin-right: 5px; color: black; text-align: center;
+            margin-top: 10px;">
+              <a class="nav-link" href="agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item" style="background-color: #5EF2BE; border-radius: 10px 10px 10px 10px; margin-right: 5px; color: black; text-align: center;
+            margin-top: 10px;">
+              <a class="nav-link" href="disponiveis.html">Disponíveis</a>
+            </li>
+            <li class="nav-item dropdown" style="background-color: #5EF2BE; border-radius: 10px 10px 10px 10px; margin-right: 5px; color: black; text-align: center;
+            margin-top: 10px;">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cadastrar
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cadMotorista.html">Motoristas</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="cadastroCompleto.html">Seu Cadastro</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      <!-- FIM DO MENU -->
+      <!-- TEXTO INFO -->
+      <div class="row">
+        <div class="col">
+          <h1>&#x1F36D Carona Forours &#x1F36D</h1>
+        </div>
+      </div>
+      <div class="rowprincipal">
+        <p style="background-color: #328265;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: inset 2px 5px 68px #5EF2BE;
+        border-radius: 0px 10px; color: white; font-family: Arial, Helvetica, sans-serif; font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti at praesentium sapiente officiis repudiandae asperiores cumque harum doloribus ullam nam ad aliquid voluptate quis dolorem, aspernatur facere voluptatibus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo at ratione natus. Eos in nihil similique, vitae non esse, nulla corporis ratione vero laborum minus quos, harum ipsum molestias!</p>
+        <picture class="foto">
+          <source media="(max-width: 610px)" srcset="imagens/home/batebate-empe.jpg">
+          <img src="imagens/home/batebate-retrato.jpg" alt="Pai com o filho" class="fotoprincipal" id="ifotoprincipal">
+        </picture>
+      </div>
+      <!-- FIM TEXTO INFO -->
+      <!-- DISPONÍVEIS -->
+      <div class="rowprincipal">
+        <div class="col1">
+          <h2 class="subtitulo">Motorista Disponível</h2>
+          <table class="table" style="margin-bottom: 0px;">
+            <tbody>
+              <tr>
+                <th scope="row">Motorista</th>
+                <td>Mark Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">CPF</th>
+                <td>123456789-25</td>
+              </tr>
+              <tr>
+                <th scope="row">Destino</th>
+                <td colspan="2">Local</td>
+              </tr>
+              <tr>
+                <th scope="row">Data</th>
+                <td colspan="2">27/05/2023</td>
+              </tr>
+              <tr>
+                <th scope="row">Horário</th>
+                <td colspan="2">12:00</td>
+              </tr>
+              <tr>
+                <th scope="row">Vagas</th>
+                <td colspan="2">1</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#" class="button">Marcar Carona</a>
+        </div>
+        <div class="col2">
+          <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolores veritatis quod tenetur numquam quos cupiditate corrupti in, nisi, est assumenda. Quos maxime itaque debitis architecto dolor maiores ad perferendis.</p>
+          <img src="imagens/home/criancada-edi.jpg" alt="Crianças Brincando" class="criancada">
+        </div>
+      </div>
+      <!-- IMAGEM DE FUNDO -->
+      <div class="imgfundo">
+
+      </div>
+      <!-- FIM IMG DE FUNDO -->
+      <!-- DATA -->
+      <div class="rowprincipal">
+        <div class="col-horahj" id="horahj">
+        </div>
+        <div class="col-agenda" id="localizacao" style="border: 2px solid white; border-radius: 10px 10px 10px 10px; padding: 10px;">
+          <h2 class="subtitulo">Sua Agenda</h2>
+          <table class="table" style="margin-bottom: 0px;">
+            <tbody>
+              <tr>
+                <th scope="row">Destino</th>
+                <td>Escola</td>
+              </tr>
+              <tr>
+                <th scope="row">Dia</th>
+                <td>27/05/2023</td>
+              </tr>
+              <tr>
+                <th scope="row">Horário</th>
+                <td colspan="2">12:00</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#" class="button">Mais informações</a>
+        </div>
+      </div>
+      <!-- FIM DATA -->
+      <div class="motoroista" id="selecaomotor">
+        <h2 class="subtitulo" style="margin-top: 0px; text-align: center; display: block; height: max-content;">Motoristas Cadastrados</h2>
+        <a href="#">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 20px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/home/homem1-edi.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/home/mulher1-edi.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/home/homem4-edi.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/home/mulher2-edi.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/home/mulher3-edi.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/home/homem5-edi.jpg" class="d-block" alt="...">
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <footer>
+        <!-- INDÍCE -->
+        <h3 style="color: white; width: 100%; text-align: center; margin-bottom: 30px;">Rodapé</h3>
+        <ul class="list-group" style="width: 200px; padding: 10px; display: inline-block;">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" style="color: black;">1. Agenda</a>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" style="color: black;">2. Disponíveis</a>
+            <span class="badge bg-primary rounded-pill">2</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="#" style="color: black;">3. Cadastrar</a>
+            <span class="badge bg-primary rounded-pill">1</span>
+          </li>
+        </ul>
+        <!-- FIM INDÍCE -->
+        <!-- MAPA KASPPER -->
+        <span>
+          <h3 style="color: white;">Local Físico</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.4601626546873!2d-46.885065825003686!3d-23.189894979056774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf27c73d261475%3A0x8bacf84ffadce5f!2sKaspper!5e0!3m2!1spt-BR!2sbr!4v1685205340257!5m2!1spt-BR!2sbr" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+        </span>
+        <!-- FIM MAPA KASPPER -->
+        <div class="redes">
+          <a href=""><img src="imagens/home/insta.jpg" alt="insta" class="iconrodape"></a>
+          <a href=""><img src="imagens/home/email.png" alt="email" class="iconrodape"></a>
+          <a href=""><img src="imagens/home/wpp.png" alt="wpp" class="iconrodape"></a>
+        </div>
+      </footer>
+    <script src="js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
