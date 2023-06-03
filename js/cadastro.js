@@ -17,12 +17,3 @@ function cadastrado(){
         location.href = "index.html"
     }
 }
-
-function vendoSenha(){
-    var visive = document.getElementById('visivel')
-    if(visive.checked){
-        visive.setAttribute('type', 'text')
-    } else{
-        visive.setAttribute('type', 'password')
-    }
-}
